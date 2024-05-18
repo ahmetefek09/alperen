@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Site</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        #rainbow-text {
+            font-size: 2em;
+            animation: rainbow1 3s infinite;
+        }
+        #rainbow-text2 {
+            font-size: 2em;
+            animation: rainbow2 3s infinite;
+        }
+        @keyframes rainbow1 {
+            0% { color: red; }
+            14% { color: orange; }
+            28% { color: yellow; }
+            42% { color: green; }
+            57% { color: blue; }
+            71% { color: indigo; }
+            85% { color: violet; }
+            100% { color: red; }
+        }
+        @keyframes rainbow2 {
+            0% { color: violet; }
+            14% { color: indigo; }
+            28% { color: blue; }
+            42% { color: green; }
+            57% { color: yellow; }
+            71% { color: orange; }
+            85% { color: red; }
+            100% { color: violet; }
+        }
+    </style>
+</head>
+<body>
+    <h1 id="rainbow-text">Hello World</h1>
+    <img id="image" src="my-photo.jpg" alt="My Photo" width="300">
+    <h1 id="rainbow-text2">erc hatırasını silemezsin</h1>
+</body>
+</html>
